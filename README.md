@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Snehithasasanapuri
 - 👀 I’m interested in web development
-- 🌱 I’m currently learning python and java 
+- 🌱 I’m currently learning java and react
 - 📫 You can reach me through linkedin,username is snehithasasanapuri
 
 <!---
