@@ -1,0 +1,85 @@
+body{
+    background-image: url("../Vecctor1.jpg");
+}
+.navbar{
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url("Vector1.jpg");
+}
+.navdiv{
+    display: flex; align-items: center;justify-content: space-between;
+}
+.logo a{
+    font-size: 20px;font-weight: 400;color: black;width: 5px ;: 30px;
+    background-image: url("Vector1.jpg");
+}
+li{
+    list-style: none;display: inline-block;
+}
+li a{
+    color:black;font-size: 15px;margin-right: 60px;align-items: center
+}
+li sign{
+    margin-left: 10%;
+}
+button{
+    background-color: mediumslateblue;margin-left: 30px;border-radius: 10px;padding: 10px;width: 120px;
+} 
+button a{
+    color: white;font-style: italic;
+
+}
+.Title p{
+    color: mediumslateblue;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;font-size: 20px;margin-left: 5%;font-size: large;
+    text-align: justify; padding-right: 600px;
+}
+.form{
+    background-color: pink;
+}
+.round{
+    font-size: smaller;color: mediumslateblue;font-family: sans-serif;
+}
+.round input{
+    background-color:;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.next p{
+    text-align: center;padding-left: 20%;padding-right: 20%;
+}
+.box{
+    background-color: #f3eded;border-radius: 3%;width: fit-content ;align-items: center;
+}
+.box h1{
+    font-family: sans-serif;
+}
+.box p{
+    text-align: center;padding-left: 20%;padding-right: 20%;font-family: sans-serif;font-style: italic;color: grey;
+}
+.box1{
+    margin-left: 10px;padding-left: 10px;
+}
+.box1 p{
+    font-size:small;font-weight: bold;font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
