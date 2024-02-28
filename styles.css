@@ -1,18 +1,24 @@
 body{
-    background-image: url("../Vecctor1.jpg");
+    left: 120px;
+    
 }
 .navbar{
     font-family: sans-serif;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-image: url("Vector1.jpg");
+    padding-left: 60px;
+    padding-right: 60px;
+    
 }
 .navdiv{
+    white-space: nowrap;
     display: flex; align-items: center;justify-content: space-between;
+    position: relative;text-align: center;top: 60px;
 }
+
 .logo a{
-    font-size: 20px;font-weight: 400;color: black;width: 5px ;: 30px;
-    background-image: url("Vector1.jpg");
+    position: absolute;
+    top:20px;left: 60px;
+    font-size: 20px;font-weight: 400;color: black;width: 5px ;
+    
 }
 li{
     list-style: none;display: inline-block;
@@ -20,7 +26,7 @@ li{
 li a{
     color:black;font-size: 15px;margin-right: 60px;align-items: center
 }
-li sign{
+li Sign{
     margin-left: 10%;
 }
 button{
@@ -30,21 +36,38 @@ button a{
     color: white;font-style: italic;
 
 }
-.Title p{
-    color: mediumslateblue;
+.theory p{
+    position: absolute;top: 170px;left: 60px;letter-spacing: 0.3px;height: 2px;font-size: medium;
+    
 }
-p{
+.theory p{
     font-family: Arial, Helvetica, sans-serif;font-size: 20px;margin-left: 5%;font-size: large;
-    text-align: justify; padding-right: 600px;
+    text-align: justify; padding-right: 600px;left: 60px;
 }
-.form{
-    background-color: pink;
+.theory h1{
+    position: absolute;font-size: 40pt;
+    font-family: Arial, Helvetica, sans-serif;left: 60px;
+
+}
+.type{
+    background-color: white;width: fit-content;position: absolute;
+    left: 130px;top:600px;
+}
+.type p{
+    position: absolute;left: 1px;right: 90px;white-space: nowrap;top: -40px;font-family: sans-serif;
+    
+}
+
+.type button{
+    position:absolute;left: 200px;top: 0px;
 }
 .round{
+    position:absolute;left: 130px;top: 640px;
     font-size: smaller;color: mediumslateblue;font-family: sans-serif;
 }
 .round input{
-    background-color:;
+    left: 120px;
+    background-color:mediumslateblue;
 }
 hr {
     display: block;
@@ -54,11 +77,13 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
 .next p{
-    text-align: center;padding-left: 20%;padding-right: 20%;
+    text-align: center;padding-left: 20%;padding-right: 20%;font-family: sans-serif;
 }
 .box{
-    background-color: #f3eded;border-radius: 3%;width: fit-content ;align-items: center;
+    left: 400px;
+    background-color: #f3eded;border-radius: 3%;width: 500px ;align-items: center;height: 230px;padding-left: 400px;padding-right: 400px;
 }
 .box h1{
     font-family: sans-serif;
@@ -66,20 +91,45 @@ hr {
 .box p{
     text-align: center;padding-left: 20%;padding-right: 20%;font-family: sans-serif;font-style: italic;color: grey;
 }
+.box button{
+    position:absolute;left: 550px;
+}
 .box1{
-    margin-left: 10px;padding-left: 10px;
+    margin-left: 120px;
 }
 .box1 p{
     font-size:small;font-weight: bold;font-family: sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
+.box1 h1{
+    font-family: sans-serif;
+}
+.box1 button{
+    border-radius: 30px;width: 150px;
+}
+.bg img{
+    width: 1150px;padding-left: 120px;
+}
+.container h3{
+    font-family: sans-serif;color: black;font-weight: bold;
+}
+.container .s1box h3{
+    position: absolute;top: 1580px;
+    left: 200px;align-items: center;
+}
+.s1box p{
+    position: absolute;top: 1610px;left: 135px;font-family: sans-serif;
+}
+.container .s2box h3{
+    position: absolute;top: 1470px;
+    left: 530px;align-items: center;
+}
+.s2box p{
+    position: absolute;top: 1500px;left: 470px;white-space: nowrap;align-items: center;font-family: sans-serif;
+}
+.container .s3box h3{
+    position: absolute;top: 1280px;
+     left: 850px;align-items: center;
+}
+.s3box p{
+    position: absolute;top: 1310px;left: 785px;white-space: nowrap;align-items: center;font-family: sans-serif;
+}
