@@ -1,33 +1,33 @@
 body{
-    left: 120px;
-    
+    position: relative;
 }
 .navbar{
     font-family: sans-serif;
-    padding-left: 60px;
+    float: inline-end;top: 0px;
     padding-right: 60px;
     
 }
 .navdiv{
     white-space: nowrap;
     display: flex; align-items: center;justify-content: space-between;
-    position: relative;text-align: center;top: 60px;
+    text-align: center;top: 60px;left: 400px;
 }
+
 
 .logo a{
     position: absolute;
-    top:20px;left: 60px;
+    top:60px;left: 130px;
     font-size: 20px;font-weight: 400;color: black;width: 5px ;
     
 }
-li{
+.navdiv a{
     list-style: none;display: inline-block;
 }
-li a{
+.navdiv a{
     color:black;font-size: 15px;margin-right: 60px;align-items: center
 }
 li Sign{
-    margin-left: 10%;
+    margin-left: 10%;display: inline-block;list-style-type: none;
 }
 button{
     background-color: mediumslateblue;margin-left: 30px;border-radius: 10px;padding: 10px;width: 120px;
@@ -133,3 +133,15 @@ hr {
 .s3box p{
     position: absolute;top: 1310px;left: 785px;white-space: nowrap;align-items: center;font-family: sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
