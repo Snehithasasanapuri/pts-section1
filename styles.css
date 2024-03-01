@@ -3,14 +3,14 @@ body{
 }
 .navbar{
     font-family: sans-serif;
-    float: inline-end;top: 0px;
+    top: 0px;
     padding-right: 60px;
     
 }
 .navdiv{
-    white-space: nowrap;
-    display: flex; align-items: center;justify-content: space-between;
-    text-align: center;top: 60px;left: 400px;
+    white-space:nowrap;word-spacing: 2px;
+    display: flex;justify-content: space-between;align-items: normal;
+    text-align: center;top: 60px;
 }
 
 
@@ -20,20 +20,16 @@ body{
     font-size: 20px;font-weight: 400;color: black;width: 5px ;
     
 }
+
 .navdiv a{
-    list-style: none;display: inline-block;
-}
-.navdiv a{
-    color:black;font-size: 15px;margin-right: 60px;align-items: center
-}
-li Sign{
-    margin-left: 10%;display: inline-block;list-style-type: none;
+    display: inline;top: 60px;float: left;margin-right: 20px;
 }
 button{
-    background-color: mediumslateblue;margin-left: 30px;border-radius: 10px;padding: 10px;width: 120px;
-} 
+    background-color: mediumslateblue;margin-left: 30px;border-radius: 10px;padding: 10px;width: 120px;position: absolute;right: 60px;
+    margin-top: 50px;cursor: pointer;
+}
 button a{
-    color: white;font-style: italic;
+    color: white;font-style: italic;padding: auto;
 
 }
 .theory p{
@@ -50,7 +46,7 @@ button a{
 
 }
 .type{
-    background-color: white;width: fit-content;position: absolute;
+    background-color: white;width: fit-content;position: absolute;background-origin:border-box;
     left: 130px;top:600px;
 }
 .type p{
@@ -59,7 +55,7 @@ button a{
 }
 
 .type button{
-    position:absolute;left: 200px;top: 0px;
+    position:absolute;left: 200px;top: -60px;cursor: pointer;
 }
 .round{
     position:absolute;left: 130px;top: 640px;
@@ -79,11 +75,11 @@ hr {
 }
 
 .next p{
-    text-align: center;padding-left: 20%;padding-right: 20%;font-family: sans-serif;
+    text-align: center;padding-left: 20%;padding-right:18%;font-family: sans-serif;
 }
 .box{
-    left: 400px;
-    background-color: #f3eded;border-radius: 3%;width: 500px ;align-items: center;height: 230px;padding-left: 400px;padding-right: 400px;
+    
+    background-color: #f3eded;border-radius: 3%;width: 500px ;align-items: center;height: 230px;padding-left: 400px;padding-right: 500px;
 }
 .box h1{
     font-family: sans-serif;
@@ -92,7 +88,7 @@ hr {
     text-align: center;padding-left: 20%;padding-right: 20%;font-family: sans-serif;font-style: italic;color: grey;
 }
 .box button{
-    position:absolute;left: 550px;
+    position:absolute;left: 550px;cursor: pointer;top: 930px;
 }
 .box1{
     margin-left: 120px;
@@ -103,8 +99,8 @@ hr {
 .box1 h1{
     font-family: sans-serif;
 }
-.box1 button{
-    border-radius: 30px;width: 150px;
+.box1 .btn2{
+    border-radius: 30px;width: 150px;left: 120px;cursor: pointer;
 }
 .bg img{
     width: 1150px;padding-left: 120px;
@@ -113,27 +109,26 @@ hr {
     font-family: sans-serif;color: black;font-weight: bold;
 }
 .container .s1box h3{
-    position: absolute;top: 1580px;
+    position: absolute;top: 1700px;
     left: 200px;align-items: center;
 }
 .s1box p{
-    position: absolute;top: 1610px;left: 135px;font-family: sans-serif;
+    position: absolute;top: 1730px;left: 135px;font-family: sans-serif;
 }
 .container .s2box h3{
-    position: absolute;top: 1470px;
+    position: absolute;top: 1600px;
     left: 530px;align-items: center;
 }
 .s2box p{
-    position: absolute;top: 1500px;left: 470px;white-space: nowrap;align-items: center;font-family: sans-serif;
+    position: absolute;top: 1630px;left: 470px;white-space: nowrap;align-items: center;font-family: sans-serif;
 }
 .container .s3box h3{
-    position: absolute;top: 1280px;
+    position: absolute;top: 1410px;
      left: 850px;align-items: center;
 }
 .s3box p{
-    position: absolute;top: 1310px;left: 785px;white-space: nowrap;align-items: center;font-family: sans-serif;
+    position: absolute;top: 1440px;left: 785px;white-space: nowrap;align-items: center;font-family: sans-serif;
 }
-
 
 
 
